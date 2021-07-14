@@ -1,0 +1,124 @@
+/* Google Fonts -Poppins-Bold */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* header start */
+header {
+    background: #2D25A0;
+    height: 700px;
+}
+.top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.title{
+    width: 40%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.title img{
+    width: 70%;
+}
+h1{
+    font-size: 60px;
+    color: azure;
+    font-weight: 700;
+}
+
+.button{
+    text-decoration: none;
+    color: beige;
+    background: #E02C6D;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 24px;
+
+}
+
+
+/* Main */
+main{
+    display: flex;
+    justify-content: center;
+}
+
+/* article */
+.container{
+    padding-top: 50px;
+    width: 870px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.blogs{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+        
+    
+}
+.card{
+    text-align:left;
+    margin: 20px ;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     
+}
+.card img{
+    height: 426px
+}
+h4{
+    font-size: 30px;
+    font-weight: 700;
+    color: #212227;
+}
+p{
+    font-size: 15px;
+    color: #A2A2A2;
+}
+
+/* Footer */
+/* footer{
+    width: 400px;
+} */
+.footer{
+    /* justify-content: center; */
+    justify-items: center;
+    /* align-items: center; */
+    display: grid;
+    /* grid-template-columns: repeat(1, 1fr); */
+}
+.footer img{
+    width: 15%;
+
+}
+i{
+    color: #969BAB;
+    background: #E7E7E8;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    
+}
+#copyright{
+    color: #000000;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
